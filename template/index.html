@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    {% comment %} <link rel="stylesheet" type="text/css" href="./main.css" {% endcomment %}
+</head>
+<body class="body">
+    <h1>Calculator</h1>
+    <br>
+    <label>Choose the option and enter no</label>
+    <div class="main">
+        <form>
+        <select id="wa">
+            <option>Addition</option>
+            <option>Subtraction</option>
+            <option>Multiplication</option>
+            <option>Division</option>
+
+        </select>
+    <input type="text" name="firstno">
+    <input type="text" name="secondno">
+
+    <button>click to submit</button>
+    </form>
+    </div>
+    <div class="result">
+        <label>The result :</label>
+        <label id="total"></label>
+    </div>
+</body>
+</html>
